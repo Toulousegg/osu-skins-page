@@ -1,24 +1,24 @@
 * {
     font-family: sans-serif;
     font-size: 1.05rem;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .cabecera {
     background: none;
     color: white;
-    padding: 20px 0;
+    padding: 0;
     background-color: black;
-    position: fixed;
+    position: relative;
     right: 0;
     top: 0;
     left: 0;
 }
 .navegacion {
     list-style: none;
-    padding: 0;
+    padding: .45em;
     margin: 0;
-    
+    right: 1em;
 }
 .navegacion ol li {
     display: inline-block;
@@ -28,14 +28,41 @@
     padding: 15px 30px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    right: 2em;
+}
+.logo {
+    padding: 0em;
 }
 .navegacion ol li a:hover {
-    color:rgb(0, 0, 0);
-    transition-delay: 50ms;
-    background: #bbbbbb;
-    border-radius: 5px;
+    color: rgb(214, 165, 74);
+    border-radius: 10px;
+    transition-delay: .08s;
 }
-.busqueda {
+.busqueda input{
     left: 0;
     bottom: 0;
+    padding: .3em;
+    width: 20em;
+    border-radius: 20px;
+    border: black solid .3em;
+    position: absolute;
+    left: 55em;
+    bottom: .6em;
+    user-select: none;
+}
+.contenido {
+    margin: 5em 4em;
+
+}
+.contenido .tema {
+    font-size: 2.5em;
+}
+.psd {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: right;
 }
